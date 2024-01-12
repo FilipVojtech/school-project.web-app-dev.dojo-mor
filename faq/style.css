@@ -1,0 +1,15 @@
+.dropdown-toggle {
+    white-space: normal;
+}
+
+/*.dropdown-toggle::after {*/
+/*    transition: 200ms;*/
+/*    transform: rotateX(180deg);*/
+/*    !*rotate: 180deg;*!*/
+
+/*}*/
+
+/*.dropdown-toggle:is(.collapsed)::after {*/
+/*    transform: rotateX(180deg);*/
+/*    !*rotate: 0deg;*!*/
+/*}*/

@@ -1,0 +1,19 @@
+:root {
+    --heading-height: calc(1.375rem + 2vw);
+}
+
+#tech__heading {
+    font-size: var(--heading-height);
+}
+
+#tech_logo {
+    width: var(--heading-height);
+}
+
+.row {
+    margin-bottom: 1rem;
+}
+
+.row:last-child {
+    margin-bottom: 0;
+}

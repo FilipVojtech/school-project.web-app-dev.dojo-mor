@@ -1,0 +1,50 @@
+:root {
+    --dm-blue: #109dcc;
+    --dm-grey: #1D3545;
+    --bs-primary: var(--dm-blue);
+    --bs-secondary: var(--dm-grey);
+}
+
+
+body {
+    /* https://www.youtube.com/watch?v=yc2olxLgKLk */
+    /* FootBot: Sticking footer on bottom for short pages */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* /FootBot */
+}
+
+footer {
+    /* FootBot: Sticking footer on bottom for short pages */
+    margin-top: auto;
+    /* /FootBot */
+}
+
+#logo {
+    width: 100px;
+}
+
+i.bi {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+}
+
+.social-icon i {
+    transition: 200ms;
+}
+
+#yt:hover i {
+    color: #FF0000;
+}
+
+#fb:hover i {
+    color: #1877f2;
+}
+
+#in:hover i {
+    color: #e1306c;
+}
+
+
